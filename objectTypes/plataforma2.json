@@ -1,0 +1,60 @@
+{
+	"name": "Plataforma2",
+	"plugin-id": "Sprite",
+	"sid": 685164585455058,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Sólido",
+			"sid": 694702637850662
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Seno",
+			"sid": 693656711019121
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 574,
+						"height": 62,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8340762,
+						"collisionPoly": {
+							"points": [
+								0.0025996533795493936,
+								0.015625,
+								0.9974003466204506,
+								0.015625,
+								0.9974003466204506,
+								0.984375,
+								0.0025996533795493936,
+								0.984375
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 582464621081794,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

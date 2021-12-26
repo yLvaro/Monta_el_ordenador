@@ -1,0 +1,64 @@
+{
+	"name": "PlacaBase",
+	"plugin-id": "Sprite",
+	"sid": 509835075287716,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Objeto",
+			"type": "boolean",
+			"desc": "",
+			"sid": 365157279035046
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 260,
+						"height": 220,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3263106,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9961538461538462,
+								0,
+								0.9961538461538462,
+								0.5,
+								0.9961538461538462,
+								0.9954545454545455,
+								0.5,
+								0.9954545454545455,
+								0,
+								0.9954545454545455,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 789079460725245,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

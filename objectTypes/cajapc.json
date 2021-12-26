@@ -1,0 +1,57 @@
+{
+	"name": "CajaPC",
+	"plugin-id": "Sprite",
+	"sid": 647079061450503,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 424,
+						"height": 481,
+						"originX": 0.5,
+						"originY": 0.48440748440748443,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7753331,
+						"collisionPoly": {
+							"points": [
+								0.018867924528301886,
+								0.060291060291060294,
+								0.5,
+								0.010395010395010396,
+								0.9929245283018868,
+								0.04781704781704782,
+								0.9905660377358491,
+								0.48440748440748443,
+								0.9952830188679245,
+								0.920997920997921,
+								0.5,
+								0.9563409563409564,
+								0.018867924528301886,
+								0.9064449064449065,
+								0.0047169811320754715,
+								0.48440748440748443
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 352090724733911,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"name": "Plataforma3",
+	"plugin-id": "Sprite",
+	"sid": 732938970235655,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Sólido",
+			"sid": 987639684538300
+		},
+		{
+			"behaviorId": "Orbit",
+			"name": "Orbitar",
+			"sid": 113890182009108
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 573,
+						"height": 61,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1335420,
+						"collisionPoly": {
+							"points": [
+								0.0025996533795493936,
+								0.015625,
+								0.9974003466204506,
+								0.015625,
+								0.9974003466204506,
+								0.984375,
+								0.0025996533795493936,
+								0.984375
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 290713256975740,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
