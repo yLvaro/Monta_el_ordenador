@@ -328,9 +328,12 @@
 			],
 			"actions": [
 				{
-					"id": "restart-layout",
+					"id": "go-to-layout-by-name",
 					"objectClass": "System",
-					"sid": 612163689467083
+					"sid": 979556494311881,
+					"parameters": {
+						"layout": "\"morir\""
+					}
 				}
 			],
 			"sid": 113695883113194
