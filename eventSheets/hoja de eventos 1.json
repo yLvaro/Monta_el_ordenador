@@ -418,6 +418,29 @@
 				}
 			],
 			"sid": 305033623580913
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-enabled",
+					"objectClass": "Player",
+					"sid": 228956822510084,
+					"behaviorType": "DesplazarHasta"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Tiempo",
+					"sid": 170341884719814,
+					"parameters": {
+						"x": "Player.X - 7",
+						"y": "Player.Y - 45"
+					}
+				}
+			],
+			"sid": 822168150394358
 		}
 	],
 	"sid": 384046020144383

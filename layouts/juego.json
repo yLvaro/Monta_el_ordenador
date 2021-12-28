@@ -1041,15 +1041,15 @@
 					"properties": {
 						"text": "60",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "Impact",
 						"size": 12,
 						"line-height": 0,
-						"bold": true,
+						"bold": false,
 						"italic": false,
 						"color": [
-							1,
-							1,
-							1,
+							0.9411764705882353,
+							0.33725490196078434,
+							0.33725490196078434,
 							1
 						],
 						"horizontal-alignment": "left",
@@ -1068,8 +1068,8 @@
 						}
 					},
 					"world": {
-						"x": 56,
-						"y": 182,
+						"x": 84,
+						"y": 192,
 						"width": 200,
 						"height": 30,
 						"originX": 0,
