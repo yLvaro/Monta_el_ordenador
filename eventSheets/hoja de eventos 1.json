@@ -328,9 +328,12 @@
 			],
 			"actions": [
 				{
-					"id": "restart-layout",
+					"id": "go-to-layout-by-name",
 					"objectClass": "System",
-					"sid": 612163689467083
+					"sid": 979556494311881,
+					"parameters": {
+						"layout": "\"morir\""
+					}
 				}
 			],
 			"sid": 113695883113194
@@ -349,11 +352,20 @@
 			],
 			"actions": [
 				{
-					"id": "add-to-eventvar",
+					"id": "subtract-from-eventvar",
 					"objectClass": "System",
-					"sid": 745802448009574,
+					"sid": 383329334618407,
 					"parameters": {
 						"variable": "tiempo",
+						"value": "1"
+					}
+				},
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Tiempo",
+					"sid": 656730059246720,
+					"parameters": {
+						"instance-variable": "Tiempo",
 						"value": "1"
 					}
 				}
@@ -366,11 +378,11 @@
 				{
 					"id": "compare-two-values",
 					"objectClass": "System",
-					"sid": 196985727804678,
+					"sid": 137857910999297,
 					"parameters": {
 						"first-value": "tiempo",
 						"comparison": 0,
-						"second-value": "60"
+						"second-value": "0"
 					}
 				}
 			],
@@ -378,13 +390,34 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 773474149474970,
+					"sid": 183753888860201,
 					"parameters": {
-						"layout": "Juego"
+						"layout": "Tiempo"
 					}
 				}
 			],
 			"sid": 209488048720780
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 838421396642517
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Tiempo",
+					"sid": 723822979098847,
+					"parameters": {
+						"text": "tiempo"
+					}
+				}
+			],
+			"sid": 305033623580913
 		}
 	],
 	"sid": 384046020144383

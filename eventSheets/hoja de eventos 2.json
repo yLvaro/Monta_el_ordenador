@@ -18,6 +18,15 @@
 					"parameters": {
 						"which": "previous"
 					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 876825335915839,
+					"parameters": {
+						"variable": "tiempo",
+						"value": "60"
+					}
 				}
 			],
 			"sid": 518503828549724
