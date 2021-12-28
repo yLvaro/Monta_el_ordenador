@@ -85,6 +85,14 @@
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Timer",
+			"name": "Temporizador",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "gvpf6qudkcm",
@@ -108,12 +116,23 @@
 			"Sprite",
 			"FondoEnMosaico5",
 			"Sprite2",
-			"Plataforma3"
+			"Plataforma3",
+			"Tiempo",
+			"Texto3",
+			"Texto4"
 		],
 		"subfolders": []
 	},
 	"autosaveData": null,
-	"containers": [],
+	"containers": [
+		{
+			"members": [
+				"Player",
+				"Tiempo"
+			],
+			"selectMode": "normal"
+		}
+	],
 	"families": {
 		"items": [],
 		"subfolders": []

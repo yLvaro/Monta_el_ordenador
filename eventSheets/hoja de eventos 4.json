@@ -18,6 +18,15 @@
 					"parameters": {
 						"layout": "\"Juego\""
 					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 179261451581138,
+					"parameters": {
+						"variable": "tiempo",
+						"value": "60"
+					}
 				}
 			],
 			"sid": 154258105967397

@@ -1,0 +1,22 @@
+{
+	"name": "Tiempo",
+	"plugin-id": "Text",
+	"sid": 761778278666947,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Tiempo",
+			"type": "number",
+			"desc": "",
+			"sid": 915301332794965
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Timer",
+			"name": "Temporizador",
+			"sid": 144608844860947
+		}
+	],
+	"effectTypes": []
+}

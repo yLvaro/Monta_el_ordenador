@@ -12,11 +12,20 @@
 			],
 			"actions": [
 				{
-					"id": "go-to-nextprevious-layout",
+					"id": "go-to-layout-by-name",
 					"objectClass": "System",
-					"sid": 593244127366141,
+					"sid": 112868494640452,
 					"parameters": {
-						"which": "next"
+						"layout": "\"Juego\""
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 118982579216756,
+					"parameters": {
+						"variable": "tiempo",
+						"value": "60"
 					}
 				}
 			],
