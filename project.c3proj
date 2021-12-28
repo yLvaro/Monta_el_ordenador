@@ -117,7 +117,9 @@
 			"FondoEnMosaico5",
 			"Sprite2",
 			"Plataforma3",
-			"Tiempo"
+			"Tiempo",
+			"Texto3",
+			"Texto4"
 		],
 		"subfolders": []
 	},
